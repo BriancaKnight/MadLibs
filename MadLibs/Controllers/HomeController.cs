@@ -9,6 +9,7 @@ namespace MadLibs.Controllers
 
     [Route("/finalStory")]
     public string FinalStory() { return "Here is the completed story"; }
+    
     // [Route("/")]
     // public string HomePage() { return "Home"; }
   }
