@@ -5,7 +5,7 @@ namespace MadLibs.Controllers
 {
   public class HomeController : Controller
   {
-    [Route("/blankStory")]
+    [Route("/")]
     public ActionResult BlankStory() { return View(); }
 
     [Route("/finalStory")]
@@ -28,21 +28,5 @@ namespace MadLibs.Controllers
     [Route("/form")]
     public ActionResult Form() { return View(); }
 
-    // [Route("/libs")]
-    // public ActionResult Libs(string Adjective1, string Adjective2, string Adjective3, string Adjective4, string ProperNoun1, string ProperNoun2, string ProperNoun3, string Verb1, string Verb2, string Noun)
-    // {
-    //   FinalStoryVariable myFinalStoryVariable = new FinalStoryVariable();
-    //   myFinalStoryVariable.Adjective1 = adjective1;
-    //   myFinalStoryVariable.Adjective2 = adjective2;
-    //   myFinalStoryVariable.Adjective3 = adjective3;
-    //   myFinalStoryVariable.Adjective4 = adjective4;
-    //   myFinalStoryVariable.ProperNoun1 = properNoun1;
-    //   myFinalStoryVariable.ProperNoun2 = properNoun2;
-    //   myFinalStoryVariable.ProperNoun3 = properNoun3;
-    //   myFinalStoryVariable.Verb1 = verb1;
-    //   myFinalStoryVariable.Verb2 = verb2;
-    //   myFinalStoryVariable.Noun = noun;
-    //   return View(myFinalStoryVariable);
-    // }
   }
 }
