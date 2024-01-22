@@ -28,5 +28,11 @@ namespace MadLibs.Controllers
     [Route("/form")]
     public ActionResult Form() { return View(); }
 
+    [Route("/madlibs")]
+    public ActionResult Madlibs()
+    {
+      return View();
+    }
+
   }
 }
