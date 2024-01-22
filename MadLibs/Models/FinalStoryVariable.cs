@@ -1,6 +1,6 @@
 namespace MadLibs.Models
 {
-  public class BlankStoryVariable
+  public class FinalStoryVariable
   {
     public string Adjective1 { get; set; }
     public string Adjective2 { get; set; }
@@ -12,10 +12,6 @@ namespace MadLibs.Models
     public string Verb1 { get; set; }
     public string Verb2 { get; set; }
     public string Noun { get; set; }
-
-
-
-
 
   }
 }
